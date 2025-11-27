@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #ffffff;
+}
+
+/* Top Navigation Bar */
+.topbar {
+    background-color: #a8d59f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.topbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    background: white;
+    padding: 6px 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.topbar .user {
+    font-size: 18px;
+}
+
+/* FAQ Layout */
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.faq-left {
+    width: 55%;
+}
+
+.faq-left h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Search Box */
+.search-box {
+    margin: 25px 0;
+    padding: 12px;
+    border-radius: 20px;
+    background: #e6dde8;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.menu-icon,
+.search-icon {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+/* FAQ List */
+.faq-list {
+    list-style: disc;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.faq-list li span {
+    float: right;
+}
+
+/* Image Side */
+.faq-right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-image {
+    width: 350px;
+}
